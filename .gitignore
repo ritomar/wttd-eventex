@@ -1,6 +1,7 @@
 .idea/
 .wttd/
 exercises/
+staticfiles/
 notes.txt
 *.sqlite3
 .env
