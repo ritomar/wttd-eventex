@@ -8,7 +8,7 @@ class HomeTest(TestCase):
         self.response = self.client.get('/')
 
     def test_get(self):
-        """ GET '/ must return status code 200 """
+        """ GET '/' must return status code 200 """
         # self.client faz requisições HTTP diretas para o django
         self.assertEqual(200, self.response.status_code)
 
