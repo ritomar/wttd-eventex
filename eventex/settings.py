@@ -41,6 +41,7 @@ INSTALLED_APPS = [
     'storages',
 
     'eventex.core',
+    'eventex.subscriptions',
 ]
 
 MIDDLEWARE = [
@@ -123,7 +124,6 @@ STATICFILES_STORAGE = 'storages.backends.s3boto.S3BotoStorage'
 AWS_STORAGE_BUCKET_NAME = config('AWS_STORAGE_BUCKET_NAME')
 AWS_ACCESS_KEY_ID = config('AWS_ACCESS_KEY_ID')
 AWS_SECRET_ACCESS_KEY = config('AWS_SECRET_ACCESS_KEY')
-
 
 AWS_HEADERS = {
         # see http://developer.yahoo.com/performance/rules.html#expires
