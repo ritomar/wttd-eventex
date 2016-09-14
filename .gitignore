@@ -2,6 +2,7 @@
 .wttd/
 exercises/
 staticfiles/
+.ipynb_checkpoints/
 notes.txt
 *.sqlite3
 .env
