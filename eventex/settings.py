@@ -49,7 +49,7 @@ INSTALLED_APPS = [
 
     # eventex apps
     'eventex.core',
-    'eventex.subscriptions',
+    'eventex.subscriptions.apps.SubriscriptionsConfig',
 ]
 
 MIDDLEWARE = [
