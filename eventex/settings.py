@@ -44,6 +44,7 @@ INSTALLED_APPS = [
 
     # third party apps
     'storages',
+    'test_without_migrations',
     'django_extensions',
 
     # eventex apps
